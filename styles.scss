@@ -129,7 +129,7 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -mo-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .hero-description {
@@ -452,6 +452,7 @@
   color: #fff;
 }
 @media screen and (max-width: 1028px) {
+
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -460,6 +461,7 @@
     width: 100%;
     max-width: 1300px;
     padding: 0;
+
   }
 
   .navbar-menu {
@@ -474,7 +476,7 @@
     z-index: -1;
   }
 
-  .navbar-menu.active {
+  .navbar-menu .active {
     background: #131313;
     top: 100%;
     opacity: 1;
@@ -520,9 +522,9 @@
   }
 
   .navbar-toggle .bar {
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 38px;
+    height: 5px;
+    margin: 8px auto;
     transition: all 0.3s ease-in-out;
     background: #fff;
     display: block;
@@ -545,12 +547,13 @@
     transform: translateY(-8px) rotateX(-45deg);
   }
   /* Hero Section */
+  #home{
+    height: 95vh;
+  }
   .hero-heading {
-    font-size: 60px;
   }
 
   .hero-description {
-    font-size: 35px;
   }
   /* Main Section */
   .main-container {
@@ -569,8 +572,7 @@
   }
 
   .main-img-card {
-    height: 425px;
-    width: 425px;
+
   }
 
   .main-content {
@@ -579,11 +581,11 @@
   }
 
   .main-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.8rem;
     margin-top: 2rem;
   }
 
-  .main-content h2 {
+  .main-content h3 {
     font-size: 3rem;
   }
 
@@ -591,6 +593,33 @@
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+
+.services h1{
+  font-size: 3.5rem;
+}
+
+.services-card h2{
+  font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media screen and (max-width: 400px) {
   .main-img-card {
